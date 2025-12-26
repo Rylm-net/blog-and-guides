@@ -1,0 +1,417 @@
+---
+title: "Top 10 Must-Have Plugins for Your RYLM Server"
+description: "Enhance your Hytale server with these essential plugins that every server owner should know about"
+date: "2025-01-23"
+author: "RYLM Team"
+tags: ["plugins", "recommendations", "server-management"]
+image: "/images/blog/top-plugins.jpg"
+featured: true
+---
+
+# Top 10 Must-Have Plugins for Your RYLM Server
+
+Want to take your Hytale server to the next level? These essential plugins will help you create an amazing experience for your players. All are available for free installation on RYLM!
+
+## 1. 🛡️ CoreProtect - Essential Grief Prevention
+
+**Category**: Protection & Security
+
+CoreProtect is the ultimate insurance policy for your server. It logs every block change, chest transaction, and player action, allowing you to rollback griefing with a single command.
+
+### Key Features
+- Complete block logging and rollback system
+- Inspect any block to see its history
+- Restore griefed areas in seconds
+- Minimal performance impact
+- Easy-to-use commands
+
+### Why You Need It
+Griefing happens. When it does, CoreProtect lets you fix it in minutes instead of hours.
+
+### Quick Start
+```bash
+# Inspect a block
+/co inspect
+
+# Rollback a player's actions from the last hour
+/co rollback u:PlayerName t:1h
+
+# Restore (opposite of rollback)
+/co restore u:PlayerName t:1h
+```
+
+**Install from**: RYLM Plugin Library → Protection
+
+---
+
+## 2. 🏠 LandClaim - Protect Your Players' Builds
+
+**Category**: Protection
+
+Give players the power to protect their own creations with an intuitive land claiming system.
+
+### Key Features
+- Golden shovel claiming (or customizable item)
+- Trust system for friends
+- Automatic new player claims
+- Prevent building, chest access, and PvP in claims
+- Expandable claim sizes
+
+### Why You Need It
+Players want to build without fear. LandClaim ensures their hard work stays safe.
+
+### Quick Start
+```bash
+# Players claim land by:
+1. Get a golden shovel
+2. Right-click two corners to create a claim
+3. /trust <player> to allow friends access
+
+# Admin commands
+/claimlist - View all claims
+/deleteclaim - Remove a claim
+```
+
+**Install from**: RYLM Plugin Library → Protection
+
+---
+
+## 3. 💰 HytaleEconomy - Virtual Currency System
+
+**Category**: Economy
+
+Add an economy to your server with this comprehensive currency system.
+
+### Key Features
+- Virtual currency (customize the name)
+- Balance management
+- Pay other players
+- Admin commands for balances
+- Integration with shop plugins
+- Transaction logging
+
+### Why You Need It
+An economy adds purpose to gathering resources and creates player-driven markets.
+
+### Quick Start
+```bash
+# Player commands
+/balance - Check your money
+/pay <player> <amount> - Send money
+
+# Admin commands
+/eco give <player> <amount>
+/eco take <player> <amount>
+/eco set <player> <amount>
+```
+
+**Install from**: RYLM Plugin Library → Economy
+
+---
+
+## 4. 🏪 ChestShop - Player-Run Shops
+
+**Category**: Economy
+
+Let players create their own shops using chests and signs.
+
+### Key Features
+- Create shops with signs and chests
+- Buy and sell items
+- Automatic transactions
+- Shop statistics
+- Admin shops (infinite stock)
+- Tax system
+
+### Why You Need It
+Combined with an economy, ChestShop creates a thriving player marketplace.
+
+### Quick Start
+```
+Create a shop sign:
+Line 1: (leave blank)
+Line 2: Amount
+Line 3: B [buy price] : S [sell price]
+Line 4: Item name
+
+Example:
+(blank)
+64
+B 10 : S 5
+Wood
+```
+
+**Install from**: RYLM Plugin Library → Economy
+
+---
+
+## 5. ⚡ Essentials - The Swiss Army Knife
+
+**Category**: Utilities
+
+The most popular utility plugin with hundreds of useful features.
+
+### Key Features
+- Home and warp commands
+- Teleportation system
+- Kits and starter items
+- Nickname support
+- Private messages
+- Time and weather commands
+- AFK detection
+- And 100+ more features!
+
+### Why You Need It
+Essentials provides the basic commands players expect on every server.
+
+### Popular Commands
+```bash
+# Player commands
+/sethome [name] - Set a home
+/home [name] - Teleport home
+/spawn - Go to spawn
+/tpa <player> - Request teleport
+
+# Admin commands
+/give <player> <item> <amount>
+/gamemode <mode> <player>
+/heal <player>
+/fly [player]
+```
+
+**Install from**: RYLM Plugin Library → Utilities
+
+---
+
+## 6. 🎮 MiniGamesCore - Built-in Minigames
+
+**Category**: Minigames
+
+Add fun minigames to keep players entertained between adventures.
+
+### Key Features
+- Multiple game modes (PvP, Parkour, Spleef, etc.)
+- Automatic arena setup
+- Queue system
+- Rewards and statistics
+- Spectator mode
+- Customizable games
+
+### Included Games
+- **SkyWars** - Battle on floating islands
+- **Parkour** - Timed jumping challenges
+- **PvP Arena** - 1v1 combat
+- **Spleef** - Destroy blocks beneath opponents
+- **Race** - Speed challenges
+
+### Why You Need It
+Minigames add variety and keep players engaged during downtime.
+
+**Install from**: RYLM Plugin Library → Minigames
+
+---
+
+## 7. 💬 AdvancedChat - Better Communication
+
+**Category**: Social
+
+Transform your chat system with formatting, channels, and moderation tools.
+
+### Key Features
+- Custom chat formats
+- Color and formatting codes
+- Chat channels (global, local, party)
+- Chat filter and anti-spam
+- Mention system (@player)
+- Chat logging
+- Emoji support
+
+### Why You Need It
+Good communication builds community. AdvancedChat makes chatting more enjoyable.
+
+### Quick Start
+```bash
+# Channel commands
+/g <message> - Global chat
+/l <message> - Local chat
+/party <message> - Party chat
+
+# Format codes
+&b = Blue text
+&l = Bold
+&o = Italic
+:smile: = 😊
+```
+
+**Install from**: RYLM Plugin Library → Social
+
+---
+
+## 8. 📊 ServerStats - Player Statistics
+
+**Category**: Statistics
+
+Track and display comprehensive player statistics.
+
+### Key Features
+- Play time tracking
+- Block break/place stats
+- Kill/death ratios
+- Distance traveled
+- Leaderboards
+- Achievement system
+- GUI-based stats viewer
+
+### Why You Need It
+Players love seeing their progress, and leaderboards create friendly competition.
+
+### Quick Start
+```bash
+# View stats
+/stats - Your statistics
+/stats <player> - View another player's stats
+/leaderboard - Server rankings
+```
+
+**Install from**: RYLM Plugin Library → Statistics
+
+---
+
+## 9. 🎨 CustomItems - Create Unique Items
+
+**Category**: Customization
+
+Design custom items with unique abilities and properties.
+
+### Key Features
+- Custom item creation GUI
+- Add special abilities
+- Custom textures
+- Lore and names
+- Give items via commands
+- Drop from mobs/bosses
+
+### Why You Need It
+Custom items make your server unique and create special rewards for players.
+
+### Example Custom Items
+- **Grappling Hook** - Pull yourself to locations
+- **Lightning Staff** - Summon lightning strikes
+- **Speed Boots** - Permanent speed boost
+- **Portable Workbench** - Craft anywhere
+
+**Install from**: RYLM Plugin Library → Customization
+
+---
+
+## 10. 🔧 AdminToolkit - Server Management
+
+**Category**: Administration
+
+Essential tools for server administrators and moderators.
+
+### Key Features
+- Advanced player management
+- World editing tools
+- Server performance monitoring
+- Scheduled announcements
+- Automated backups
+- Report system
+- Moderation commands
+
+### Why You Need It
+Running a server is easier with the right tools. AdminToolkit gives you everything you need.
+
+### Key Commands
+```bash
+# Moderation
+/kick <player> [reason]
+/ban <player> [reason]
+/mute <player> [duration]
+/warn <player> <reason>
+
+# Management
+/announce <message> - Broadcast
+/vanish - Become invisible
+/world tp <world> - Travel between worlds
+```
+
+**Install from**: RYLM Plugin Library → Administration
+
+---
+
+## Bonus Recommendations
+
+### For Survival Servers
+- **DeathChest** - Automatically store items on death
+- **McMMO** - RPG-style skill system
+- **Jobs** - Earn money from various activities
+
+### For Creative Servers
+- **WorldEdit** - Powerful building tools
+- **PlotSquared** - Plot-based building
+- **HeadDatabase** - Thousands of decorative heads
+
+### For Roleplay Servers
+- **Towny** - Town and nation system
+- **Brewery** - Brewing custom drinks
+- **Furniture** - Decorative furniture items
+
+## Installing Multiple Plugins
+
+Want to install several plugins at once?
+
+1. Go to **Plugins → Browse**
+2. Use the checkbox on each plugin card
+3. Click **"Install Selected"** at the bottom
+4. Wait for batch installation
+5. Restart your server
+
+## Plugin Compatibility
+
+Most plugins work well together, but some combinations may conflict:
+
+✅ **Safe Combinations**:
+- CoreProtect + LandClaim
+- HytaleEconomy + ChestShop
+- Essentials + (almost everything)
+
+⚠️ **Check Compatibility**:
+- Multiple economy plugins
+- Multiple permission systems
+- Overlapping features
+
+**Tip**: Check the plugin page for known conflicts before installing.
+
+## Performance Considerations
+
+More plugins = more load on your server. Tips for maintaining performance:
+
+- Start with essentials (protection, economy, utilities)
+- Add plugins gradually
+- Monitor performance in your RYLM dashboard
+- Disable unused plugin features
+- Keep plugins updated
+
+## Getting Plugin Support
+
+Need help with a plugin?
+
+1. **Plugin Documentation** - Click plugin name in dashboard
+2. **RYLM Discord** - Ask the community
+3. **Plugin Authors** - Links provided on plugin pages
+4. **Knowledge Base** - [help.rylm.net](https://help.rylm.net)
+
+## What's Next?
+
+Now that you know which plugins to install, learn how to configure them:
+
+- [Plugin Configuration Guide](/guides/plugin-configuration)
+- [Permission Setup](/guides/permissions-setup)
+- [Creating Custom Kits](/guides/custom-kits)
+
+---
+
+Start with these 10 plugins, and you'll have a feature-rich server that keeps players coming back! 🚀
+
+*Have a favorite plugin we didn't mention? Share it in our [Discord community](https://discord.gg/rylm)!*
