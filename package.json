@@ -1,0 +1,25 @@
+{
+  "name": "rylm-blog-and-guides",
+  "version": "1.0.0",
+  "description": "Blog content for Rylm.net served from CDN",
+  "private": true,
+  "scripts": {
+    "generate-manifest": "node .github/scripts/generate-manifest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rylm/blog-and-guides"
+  },
+  "keywords": [
+    "rylm",
+    "hytale",
+    "blog",
+    "guides",
+    "mdx"
+  ],
+  "author": "Rylm Team",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "lastUpdated": "2025-12-26T01:43:08.554Z",
+  "posts": [
+    {
+      "slug": "server-customization",
+      "category": "guides",
+      "file": "guides/server-customization.mdx",
+      "metadata": {
+        "title": "Server Customization Guide: Make Your Hytale Server Unique",
+        "description": "Learn how to customize your RYLM server with plugins, settings, and configurations",
+        "author": "RYLM Team",
+        "category": "guides",
+        "publishedAt": "2025-01-22",
+        "slug": "server-customization",
+        "tags": [
+          "tutorial",
+          "customization",
+          "advanced"
+        ],
+        "image": "/images/guides/customization.jpg",
+        "featured": false
+      }
+    },
+    {
+      "slug": "create-your-first-server",
+      "category": "guides",
+      "file": "guides/create-your-first-server.mdx",
+      "metadata": {
+        "title": "Creating Your First Hytale Server on RYLM",
+        "description": "A complete step-by-step guide to launching your first free Hytale server",
+        "author": "RYLM Team",
+        "category": "guides",
+        "publishedAt": "2025-01-21",
+        "slug": "create-your-first-server",
+        "tags": [
+          "tutorial",
+          "beginner",
+          "server-setup"
+        ],
+        "image": "/images/guides/first-server.jpg",
+        "featured": false
+      }
+    }
+  ]
+}
