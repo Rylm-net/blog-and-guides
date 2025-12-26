@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-26T16:57:56.955Z",
+  "lastUpdated": "2025-12-26T17:03:17.763Z",
   "posts": [
     {
       "slug": "example",
@@ -19,6 +19,26 @@
         ],
         "image": "/images/guides/customization.jpg",
         "featured": false
+      }
+    },
+    {
+      "slug": "welcome-to-rylm",
+      "category": "blog",
+      "file": "blog/welcome-to-rylm.mdx",
+      "metadata": {
+        "title": "Welcome to RYLM: Free Hytale Server Hosting Made Easy",
+        "description": "Discover how RYLM makes hosting your own Hytale server completely free and effortless",
+        "author": "Alexander Møller",
+        "category": "blog",
+        "publishedAt": "2025-12-26",
+        "slug": "welcome-to-rylm",
+        "tags": [
+          "announcement",
+          "getting-started",
+          "rylm"
+        ],
+        "image": "/images/blog/welcome-rylm.jpg",
+        "featured": true
       }
     }
   ]
