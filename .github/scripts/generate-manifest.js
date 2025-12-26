@@ -5,7 +5,7 @@ const matter = require('gray-matter');
 // Configuration
 const ROOT_DIR = process.cwd();
 const OUTPUT_FILE = path.join(ROOT_DIR, 'manifest.json');
-const CATEGORIES = ['guides', 'tutorials', 'news']; // Add more categories as needed
+const CATEGORIES = ['guides', 'tutorials', 'news', 'blog', 'technical']; // Add more categories as needed
 
 /**
  * Recursively find all MDX files in a directory
